@@ -1,0 +1,98 @@
+.wrapperForme{
+	
+	padding: 10px;
+	border: 3px solid rgb(255,215,0);
+	width: 100%;
+	height: 100%;
+	display: table;
+	margin: 0px auto;
+	border-radius: 50px;
+	background: linear-gradient(to bottom right, rgb(90, 0, 0),rgba(90, 0, 90,0.9),rgba(180, 74, 0, 0.85));
+}
+
+#formica{
+	color: rgb(255,215,0);
+}
+#formica div{
+	margin-top: 15px;
+	
+}
+
+#formica div select, #formica div input{
+	
+	border: 5px solid rgb(255,215,0);
+	border-radius: 25px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: rgb(255,215,0);
+	background: rgba(133, 60, 91,0.8);
+	padding: 5px 10px;
+	font-size: 1vw;
+}
+
+#formTitle{
+	
+	font-size: 24pt;
+	text-align: center;
+}
+
+#country{
+	width: 100%;
+	text-align: center;
+}
+
+#birthdayDiv input{
+	
+	width: 100%;
+	text-align:center;
+}
+
+#nameSurNameDiv input{
+	width: calc(50% - 4px);
+}
+
+#emailDiv input{
+	width: calc(50% - 4px);
+}
+
+#phoneDiv input{
+	width: 100%;
+	text-align: center;
+}
+
+#checkboxDiv{
+	
+	width: 100%;
+}
+
+#checkboxDiv div{
+	margin: 0px auto;
+	display: table;
+	font-size: 1vw;	
+}
+
+
+
+#dugmeZaSlanje {
+    border: 2px solid rgb(255,215,0);
+    background: linear-gradient(to bottom right, rgb(90, 0, 0),rgba(90, 0, 90,0.9),rgba(180, 74, 0, 0.85));
+    box-shadow: inset 0px 5px 10px black;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: calc(50% - 1.5vw);
+	display: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: gold;
+	font-size: 1vw;
+}
+
+#poljeGresaka{
+	box-sizing: border-box;
+	padding: 10px;
+	width: 100%;
+	display: none;
+	font-size: 1vw;
+}
